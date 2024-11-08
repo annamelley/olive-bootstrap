@@ -1,4 +1,5 @@
---/ custom css /*   -- /* ADDYOUR CUSTOM CSS TO THIS FILE BELOW */
+/* CUSTOM CSS */
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
 
 body {
     font-family: Georgia, serif;
@@ -6,21 +7,21 @@ body {
     line-height: 175%;
     margin: 0;
     padding: 0 15%;
-    background-image: url("images/greenbackground.jpeg");
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
     background-size: cover;
+    background-color: lightblue;
 }
 
 ul {
-    list-style: none; /* Remove default bullets */
-    padding-left: 0;  /* Optional: Remove left padding */
+    list-style: none; 
+    padding-left: 0;  
 }
 
 li {
     position: relative;
-    padding-left: 30px; /* Space for custom bullet */
+    padding-left: 30px; 
 }
 
 li::before {
